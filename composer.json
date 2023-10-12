@@ -1,0 +1,23 @@
+{
+    "name": "webgriffe/payum-lock-request-extension-bundle",
+    "description": "Symfony bundle for Payum Lock Request extension library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Webgriffe\\PayumLockRequestExtensionBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Webgriffe\\PayumLockRequestExtensionBundle\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lorenzo Ruozzi",
+            "email": "lruozzi@webgriffe.com"
+        }
+    ],
+    "require": {}
+}
