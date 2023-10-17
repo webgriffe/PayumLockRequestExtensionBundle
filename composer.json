@@ -19,5 +19,12 @@
             "email": "support@webgriffe.com"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/dependency-injection": "^6.0",
+        "symfony/http-kernel": "^6.0",
+        "webgriffe/payum-lock-request-extension": "^1.0"
+    },
+    "require-dev": {
+        "pds/skeleton": "^1.0"
+    }
 }
