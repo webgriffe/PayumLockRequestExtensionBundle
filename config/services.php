@@ -16,7 +16,7 @@ return static function (ContainerConfigurator $containerConfigurator) {
         ])
         ->tag('payum.extension', [
             'all' => true,
-            'prepend' => true,
+            'prepend' => false,
             'alias' => 'lock_request',
         ])
     ;

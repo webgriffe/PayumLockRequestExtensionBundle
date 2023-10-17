@@ -43,3 +43,10 @@ return [
     Webgriffe\PayumLockRequestExtensionBundle\WebgriffePayumLockRequestExtensionBundle::class => ['all' => true],
 ];
 ```
+
+Notice
+------
+
+This Payum extension should lock before every other Payum extension but release the lock at the end of every other Payum extension.
+Unfortunately, this is not possible with Payum because extension are called in the same order in both onPreExecute and onPostExecute methods.
+We choose to not prepend this extension in the list because it is more important that the lock is released as last operation.
