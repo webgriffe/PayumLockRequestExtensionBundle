@@ -22,9 +22,10 @@
     "require": {
         "symfony/dependency-injection": "^6.0",
         "symfony/http-kernel": "^6.0",
-        "webgriffe/payum-lock-request-extension": "^1.0"
+        "webgriffe/payum-lock-request-extension": "^0.1"
     },
     "require-dev": {
-        "pds/skeleton": "^1.0"
+        "pds/skeleton": "^1.0",
+        "symfony/http-client": "^6.3"
     }
 }
