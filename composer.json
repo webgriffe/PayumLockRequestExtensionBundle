@@ -20,12 +20,12 @@
         }
     ],
     "require": {
-        "symfony/dependency-injection": "^6.1",
-        "symfony/http-kernel": "^6.1",
+        "symfony/dependency-injection": "^7.4",
+        "symfony/http-kernel": "^7.4",
         "webgriffe/payum-lock-request-extension": "^0.1"
     },
     "require-dev": {
         "pds/skeleton": "^1.0",
-        "symfony/http-client": "^6.1"
+        "symfony/http-client": "^7.4"
     }
 }
