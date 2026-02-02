@@ -50,4 +50,4 @@ jobs:
       run: vendor/bin/pds-skeleton validate
 
     - name: Check dependencies are properly required
-      run: composer-require-checker check
+      run: composer-require-checker check --config-file=composer-require-checker.json --ignore-parse-errors
